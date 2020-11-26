@@ -5,3 +5,18 @@ C:\Users\Paweł Kulewicz\Documents\GitHub\Math Game (NEW)\Math Game (NEW)\obj\De
 C:\Users\Paweł Kulewicz\Documents\GitHub\Math Game (NEW)\Math Game (NEW)\obj\Debug\Math Game (NEW).csproj.CoreCompileInputs.cache
 C:\Users\Paweł Kulewicz\Documents\GitHub\Math Game (NEW)\Math Game (NEW)\obj\Debug\Math Game (NEW).exe
 C:\Users\Paweł Kulewicz\Documents\GitHub\Math Game (NEW)\Math Game (NEW)\obj\Debug\Math Game (NEW).pdb
+C:\Users\Paweł Kulewicz\Documents\GitHub\Math Game (NEW)\Math Game (NEW)\bin\Debug\System.Buffers.dll
+C:\Users\Paweł Kulewicz\Documents\GitHub\Math Game (NEW)\Math Game (NEW)\bin\Debug\System.Memory.dll
+C:\Users\Paweł Kulewicz\Documents\GitHub\Math Game (NEW)\Math Game (NEW)\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Paweł Kulewicz\Documents\GitHub\Math Game (NEW)\Math Game (NEW)\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Paweł Kulewicz\Documents\GitHub\Math Game (NEW)\Math Game (NEW)\bin\Debug\System.Text.Json.dll
+C:\Users\Paweł Kulewicz\Documents\GitHub\Math Game (NEW)\Math Game (NEW)\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Paweł Kulewicz\Documents\GitHub\Math Game (NEW)\Math Game (NEW)\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Paweł Kulewicz\Documents\GitHub\Math Game (NEW)\Math Game (NEW)\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Paweł Kulewicz\Documents\GitHub\Math Game (NEW)\Math Game (NEW)\bin\Debug\System.Buffers.xml
+C:\Users\Paweł Kulewicz\Documents\GitHub\Math Game (NEW)\Math Game (NEW)\bin\Debug\System.Memory.xml
+C:\Users\Paweł Kulewicz\Documents\GitHub\Math Game (NEW)\Math Game (NEW)\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Paweł Kulewicz\Documents\GitHub\Math Game (NEW)\Math Game (NEW)\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Paweł Kulewicz\Documents\GitHub\Math Game (NEW)\Math Game (NEW)\obj\Debug\Math Game (NEW).csproj.CopyComplete
+C:\Users\Paweł Kulewicz\Documents\GitHub\Math Game (NEW)\Math Game (NEW)\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Paweł Kulewicz\Documents\GitHub\Math Game (NEW)\Math Game (NEW)\bin\Debug\Newtonsoft.Json.xml

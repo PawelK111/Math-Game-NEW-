@@ -3,9 +3,9 @@ using System.Threading;
 
 namespace OptionsGame
 {
-   public static class Options
+   public static class OptionsMenu
     {
-        public static void SetGame(ref int range, ref int quantity)
+        public static void SetGame(SettingsGameJSON SetGame)
         {
             ConsoleKeyInfo choose;
             for(;;)
@@ -24,21 +24,22 @@ namespace OptionsGame
                     case "D1":
                         Console.WriteLine("\nPodaj nowy zakres liczb od 50 do 10000 (domyślnie: 100): \n");
                         do
-                            range = int.Parse(Console.ReadLine());
-                        while (range < 50 || range > 10000);
+                            SetGame.Range = int.Parse(Console.ReadLine());
+                        while (SetGame.Range < 50 || SetGame.Range > 10000);
                         break;
                     case "D2":
                         Console.WriteLine("\nPodaj nową ilość działań do wykonania - max. 20 (domyślnie: 10): \n");
                         do
-                            quantity = int.Parse(Console.ReadLine());
-                        while (quantity > 20 || quantity < 1);
+                            SetGame.Quantity = int.Parse(Console.ReadLine());
+                        while (SetGame.Quantity > 20 || SetGame.Quantity < 1);
                         break;
                     case "D3":
                         Console.WriteLine("USTAWIENIA ZOSTAŁY PRZYWRÓCONE!");
-                        range = 100;
-                        quantity = 10;
+                        SetGame.Range = 100;
+                        SetGame.Quantity = 10;
                         break;
                     case "D4":
+                        SetGame.SaveSettings(SetGame);
                         return;
                     default:
                         Console.WriteLine("NIE MA TAKIEJ OPCJI!");

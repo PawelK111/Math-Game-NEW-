@@ -9,9 +9,9 @@ namespace MainProgram
     {
         static void Main(string[] args)
         {
-            int range = 100, quantity = 10;
+            SettingsGameJSON SF = new SettingsGameJSON();     
             ConsoleKeyInfo choose;
-            for (; ; )
+            for (;;)
             {
                 Console.Clear();
                 Console.WriteLine("---GRA W LICZENIE---\n\n" +
@@ -33,11 +33,10 @@ namespace MainProgram
                         case "D2":
                         case "D3":
                         case "D4":
-
-                        MathGame.Play(range, quantity, choose);
+                        MathGame.Play(SF.Range, SF.Quantity, choose);
                             break;
                         case "D5":
-                        Options.SetGame(ref range, ref quantity);
+                        OptionsMenu.SetGame(SF);
                             break;
                         case "D9":
                             Environment.Exit(0);
